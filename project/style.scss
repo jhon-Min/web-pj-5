@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+$primary-soft:#f3f3f3;
+
+@import 'scss/content';
+@import 'scss/sidebar';
+@import 'scss/button';
+
+* {
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+// Product Card Responsive
+@media screen and (max-width: 767px){
+    .product-card{
+        margin: 90px 0;
+    }
+}

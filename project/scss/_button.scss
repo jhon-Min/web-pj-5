@@ -1,0 +1,14 @@
+.show-side-btn{
+    cursor: pointer;
+}
+
+.full-scr-btn{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3000;
+    overflow: scroll;
+}
+
